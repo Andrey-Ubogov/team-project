@@ -6,5 +6,5 @@
 | Убогов А. Г.      | техлид      | 19      | ubogov.h, ubogov.cpp           | 1-2         |
 | Тухватуллин И. Ф. | разработчик | 17      | tuhvatullin.h, tuhvatullin.cpp | 3-5         |
 ## Сборка и запуск
-g++ main.cpp ivanov.cpp petrov.cpp sidorova.cpp -o app
+g++ main.cpp ubogov.cpp tuhvatullin.cpp -o app
 ./app

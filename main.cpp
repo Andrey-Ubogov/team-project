@@ -1,6 +1,7 @@
 ﻿// Командный проект. Группа ПИ-51
 // Команда: Убогов (в. 19, техлид), Тухватулин (в. 100)
 #include <iostream>
+#include <windows.h>
 
 // Блок подключений: заголовочные файлы 
 #include "ubogov.h"
@@ -14,8 +15,8 @@ using namespace std;
 
 // ===== Главная функция: меню =====
 int main() {
-	system("chcp 1251");
-	setlocale(LC_ALL, "Rus");
+	SetConsoleCP(65001);
+	SetConsoleOutputCP(65001);
 
 	int choice;
 	double a, b;
