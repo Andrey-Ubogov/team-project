@@ -1,6 +1,8 @@
 #include "tuhvatullin.h"
 #include <iostream>
+
 using namespace std;
+
 double sharePercent(double expense, double income) {
     if (income == 0) {
         cout << "Ошибка: доход не может быть равен 0!\n";
@@ -9,7 +11,7 @@ double sharePercent(double expense, double income) {
     return (expense / income) * 100.0;
 }
 
-double remainder(double income, double expenses) {
+double myremainder(double income, double expenses) {
     return income - expenses;
 }
 

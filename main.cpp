@@ -56,7 +56,7 @@ int main() {
 		case 4:
 			cout << "Введите доход и расходы: ";
 			cin >> income >> expense;
-			cout << "Остаток = " << remainder(income, expense) << "\n";
+			cout << "Остаток = " << myremainder(income, expense) << "\n";
 			break;
 		case 5:
 			cout << "Введите остаток и количество дней: ";
