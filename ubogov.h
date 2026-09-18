@@ -1,9 +1,9 @@
-#ifndef UBOGOV_H
+п»ї#ifndef UBOGOV_H
 #define UBOGOV_H
 
 const double PI = 3.14159265358979;
 
-// Функции варианта 19 (Убогов А. Г.)
+// Р¤СѓРЅРєС†РёРё РІР°СЂРёР°РЅС‚Р° 19 (РЈР±РѕРіРѕРІ Рђ. Р“.)
 double ellipseArea(double a, double b);
 double ellipsePerimeter(double a, double b);
 

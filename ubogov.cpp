@@ -1,4 +1,4 @@
-#include "ubogov.h"
+﻿#include "ubogov.h"
 #include <cmath>
 
 double ellipseArea(double a, double b) {
